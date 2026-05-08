@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WorkBridge App</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #071224;
+      color: white;
+    }
+
+    .hero {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #071224, #0b2c52, #0f4c81);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px;
+    }
+
+    .content {
+      max-width: 900px;
+    }
+
+    h1 {
+      font-size: 70px;
+      margin-bottom: 20px;
+      color: #38bdf8;
+    }
+
+    h2 {
+      font-size: 28px;
+      font-weight: 400;
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.7;
+      color: #dbeafe;
+    }
+
+    .buttons {
+      margin-top: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      margin: 10px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .primary {
+      background: #38bdf8;
+      color: #071224;
+    }
+
+    .secondary {
+      border: 2px solid #38bdf8;
+      color: #38bdf8;
+    }
+
+    .section {
+      padding: 80px 20px;
+      text-align: center;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: #0d1d35;
+      border-radius: 14px;
+      padding: 30px;
+    }
+
+    .card h3 {
+      color: #38bdf8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #020617;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+
+<body>
+
+<section class="hero">
+  <div class="content">
+    <h1>WorkBridge</h1>
+
+    <h2>
+      Connecting skilled workers with employers.
+    </h2>
+
+    <p>
+      WorkBridge is a hiring platform built for trades,
+      construction, industrial projects, management,
+      safety professionals, and skilled labour.
+    </p>
+
+    <div class="buttons">
+      <a href="mailto:info@workbridgeapp.com" class="btn primary">
+        Contact Us
+      </a>
+
+      <a href="#features" class="btn secondary">
+        Learn More
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="features">
+
+  <h2>Built For Industry</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>Employers</h3>
+      <p>
+        Find qualified workers faster with searchable profiles and industry focused hiring.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Workers</h3>
+      <p>
+        Build a professional profile and connect directly with companies hiring.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Construction Focused</h3>
+      <p>
+        Designed specifically for trades, industrial, commercial, and leadership positions.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 WorkBridge App • A Harmany Technologies Product
+</footer>
+
+</body>
+</html>
